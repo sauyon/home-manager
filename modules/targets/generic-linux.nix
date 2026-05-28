@@ -26,6 +26,7 @@ in
     )
     (lib.mkRenamedOptionModule [ "nixGL" ] [ "targets" "genericLinux" "nixGL" ])
     ./generic-linux/nixgl.nix
+    ./generic-linux/nss-systemd.nix
     ./generic-linux/gpu
   ];
 
